@@ -25,10 +25,10 @@ echo 'Cloning Firmware [5/7]'
 # Firmware
 git clone --depth=1 https://gitlab.com/Ar5646L/vendor_xiaomi_munch-firmware.git -b twelve vendor/xiaomi/munch-firmware
 
-echo 'Cloning GcamGo [6/7]'
-# GcamGo
-git clone --depth=1 https://gitlab.com/Ar5646L/vendor_xiaomi_haydn-extras.git -b twelve vendor/xiaomi/haydn-extras
-
-echo 'Cloning Device Settings [7/7]'
+echo 'Cloning Device Settings [6/7]'
 # Device Settings
 git clone --depth=1 https://github.com/Evolution-X/packages_resources_devicesettings.git -b tiramisu packages/resources/devicesettings
+
+echo 'Cloning MIUI Camera [7/7]
+# MIUI CAM
+git clone --depth=1 https://gitlab.com/spkal01/android_vendor_xiaomi_munch-miuicamera.git -b pyro vendor/xiaomi/munch-miuicamera
