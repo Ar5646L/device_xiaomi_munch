@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_munch.mk
+    $(LOCAL_DIR)/aosp_munch.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_munch-user \
-    spark_munch-userdebug \
-    spark_munch-eng
+    aosp_munch-user \
+    aosp_munch-userdebug \
+    aosp_munch-eng
