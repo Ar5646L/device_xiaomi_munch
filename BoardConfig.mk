@@ -7,6 +7,9 @@
 # Inherit from sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
+# Firmware
+-include vendor/xiaomi/munch-firmware/BoardConfigVendor.mk
+
 # Inherit from proprietary files for miuicamera
 -include vendor/xiaomi/munch-miuicamera/products/board.mk
 
