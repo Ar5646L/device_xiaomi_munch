@@ -11,7 +11,7 @@ git clone --depth=1 https://github.com/ProjectElixir-Devices/device_xiaomi_sm825
 
 echo 'Cloning Kernel tree [2/7]'
 # Kernel Tree
-git clone --depth=1 https://github.com/Ar5646L/kernel_xiaomi_sm8250.git -b 13 kernel/xiaomi/sm8250
+git clone --depth=1 https://github.com/Spark-Devices/android_kernel_xiaomi_munch.git -b pyro kernel/xiaomi/sm8250
 
 echo 'Cloning Vendor tree [3/7]'
 # Vendor Tree
