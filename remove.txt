@@ -1,0 +1,4 @@
+device/xiaomi
+kernel/xiaomi
+vendor/xiaomi
+packages/resources/devicesettings
