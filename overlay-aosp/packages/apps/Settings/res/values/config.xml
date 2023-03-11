@@ -19,4 +19,8 @@
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
 
+    <!-- AROS Maintainer -->
+    <string name="aros_maintainer_name" translatable="false">Aryan(SerenadeAR)</string>
+    <string name="aros_maintainer_group" translatable="false">https://t.me/SERENADE_ar</string>
+
 </resources>
