@@ -6,7 +6,7 @@ git clone --depth=1 https://github.com/ActualRealityOS-Devices/device_xiaomi_sm8
 
 echo 'Cloning Kernel tree [2/9]'
 # Kernel Tree
-git clone --depth=1 https://github.com/madmax7896/kernel_xiaomi_sm8250.git -b arrow-13.0 kernel/xiaomi/sm8250
+git clone --depth=1 https://github.com/Rohail33/Realking_xiaomi_sm8250.git -b munch kernel/xiaomi/sm8250
 
 echo 'Cloning Vendor tree [3/9]'
 # Vendor Tree
