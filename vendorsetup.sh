@@ -2,7 +2,7 @@ echo 'Starting to clone dependencies needed for your device'
 
 echo 'Cloning DT-Common tree'
 # Device Tree Common
-git clone --depth=1 https://github.com/Ar5646L/device_xiaomi_sm8250-common -b 13 device/xiaomi/sm8250-common
+git clone --depth=1 https://github.com/Ar5646L/device_xiaomi_sm8250-common -b 13-evo device/xiaomi/sm8250-common
 
 echo 'Cloning Kernel tree'
 # Kernel Tree
