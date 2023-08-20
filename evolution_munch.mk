@@ -11,22 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Evolution X stuff.
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-# ROM Flags
-RISING_CHIPSET := "Snapdragon870"
-RISING_MAINTAINER := "Aryan(SerenadeAR)"
-TARGET_BUILD_APERTURE_CAMERA := true
-TARGET_ENABLE_BLUR := true
-TARGET_HAS_UDFPS := false
-TARGET_USE_PIXEL_FINGERPRINT := true
-WITH_GMS := true
-TARGET_CORE_GMS := true
-TARGET_USE_GOOGLE_TELEPHONY := false
+#EvolutionX Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_TOUCHGESTURES := true
+EXTRA_UDFPS_ANIMATIONS := false
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_munch
+PRODUCT_NAME := evolution_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
