@@ -1,6 +1,5 @@
 # Audio
 persist.vendor.audio.delta.refresh=true
-persist.vendor.audio.misound.disable=true
 ro.audio.monitorRotation=true
 ro.vendor.audio.afe.record=true
 ro.vendor.audio.dump.mixer=true
